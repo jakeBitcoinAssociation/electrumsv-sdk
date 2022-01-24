@@ -1,0 +1,35 @@
+version: '3.5'
+
+services:
+
+  db:
+    image: postgres
+    container_name: db
+    network_mode: service:electrumsv-sdk
+    volumes:
+      - ./create_mapi_user.sh:/docker-entrypoint-initdb.d/create_mapi_user.sh
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=mapimaster
+      - POSTGRES_PASSWORD=mapimasterpass
+    stdin_open: true
+    tty: true
+
+  electrumsv-sdk:
+    image: monkishrex/electrumsv-sdk
+    container_name: electrumsv-sdk
+    command: >
+      /bin/bash -c "electrumsv-sdk start --background node
+      && electrumsv-sdk install merchant_api
+      && electrumsv-sdk start --background merchant_api
+      && electrumsv-sdk start --background electrumx
+      && electrumsv-sdk start --background electrumsv
+      && electrumsv-sdk node generate 10
+      && electrumsv-sdk start --background whatsonchain
+      && electrumsv-sdk start --background whatsonchain_api
+      && electrumsv-sdk start --background status_monitor
+      && /bin/bash"
+    ports:
+      - "3002:3002"
+    stdin_open: true
+    tty: true
