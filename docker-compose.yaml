@@ -12,8 +12,6 @@ services:
       - POSTGRES_DB=postgres
       - POSTGRES_USER=mapimaster
       - POSTGRES_PASSWORD=mapimasterpass
-    stdin_open: true
-    tty: true
 
   electrumsv-sdk:
     image: monkishrex/electrumsv-sdk
