@@ -14,20 +14,46 @@ services:
       - POSTGRES_PASSWORD=mapimasterpass
 
   electrumsv-sdk:
-    image: monkishrex/electrumsv-sdk
+#     image: monkishrex/electrumsv-sdk
+    build:
+      context: .
+      dockerfile: ./Dockerfile
     container_name: electrumsv-sdk
+    environment:
+      # MAPI postgres connection settings
+      - PGHOST=db
+      - PGPORT=5432
+      # Node Settings - will not be required soon as these will be set by default
+      - NODE_RPCALLOWIP=0.0.0.0/0
+      - NODE_RPCBIND=0.0.0.0
+      - NODE_PORT=18332
+      # ElectrumSV Settings
+      - RESTAPI_HOST=0.0.0.0
+      - RESTAPI_PORT=9999
+      - BITCOIN_NODE_PORT=18332
+      - BITCOIN_NODE_RPCUSER=rpcuser
+      - BITCOIN_NODE_RPCPASSWORD=rpcpassword
+      - ELECTRUMX_CONNECTION_STRING=${DOCKER_GATEWAY_HOST:-host.docker.internal}:51001:t
+    volumes:
+      - ./logs:/root/.electrumsv-sdk/logs
+    ports:
+      - "3002:3002"       # WOC
+      - "18332:18332"     # Node
+      - "5050:5050"       # MAPI
+      - "51001:51001"     # ElectrumX
+      - "9999:9999"       # ElectrumSV
+      - "49241:49241"     # SimpleIndexer
+      - "56565:56565"     # StatusMonitor
+    stdin_open: true
+    tty: true
     command: >
       /bin/bash -c "electrumsv-sdk start --background node
+      && electrumsv-sdk start --background status_monitor
       && electrumsv-sdk install merchant_api
       && electrumsv-sdk start --background merchant_api
       && electrumsv-sdk start --background electrumx
       && electrumsv-sdk start --background electrumsv
       && electrumsv-sdk node generate 10
       && electrumsv-sdk start --background whatsonchain
-      && electrumsv-sdk start --background whatsonchain_api
-      && electrumsv-sdk start --background status_monitor
+      && electrumsv-sdk start --background simple_indexer
       && /bin/bash"
-    ports:
-      - "3002:3002"
-    stdin_open: true
-    tty: true

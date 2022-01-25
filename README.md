@@ -11,7 +11,7 @@ BitcoinSV development environment using the Electrumsv-sdk and Docker
 
 2. clone or download the repo
 
-  ```git clone https://github.com/jakeBitcoinAssociation/electrumsv-sdk.git```
+  ```git clone https://github.com/electrumsv/electrumsv-sdk-docker.git```
 
 3. cd into the repo directory
 
@@ -25,6 +25,16 @@ BitcoinSV development environment using the Electrumsv-sdk and Docker
 
 
 The whatsonchain instance is accessible at ```localhost:3002```
+
+Ports for `http://` services (on localhost):
+
+    3002      # Whatsonchain
+    18332     # Node
+    5050      # MAPI
+    51001     # ElectrumX
+    9999      # ElectrumSV
+    49241     # SimpleIndexer
+    56565     # StatusMonitor
 
 generate new blocks with ```electrumsv-sdk node generate [num of blocks, e.g. 10]```
 
