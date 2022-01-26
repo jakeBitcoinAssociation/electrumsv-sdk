@@ -1,0 +1,257 @@
+2022-01-26 09:40:12 [main] 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2022-01-26 09:40:12 [main] Bitcoin SV version v1.0.8-dev
+2022-01-26 09:40:12 [main] InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2022-01-26 09:40:12 [main] Validating signatures for all blocks.
+2022-01-26 09:40:12 [main] Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+2022-01-26 09:40:12 [main] Using the 'sse4' SHA256 implementation
+2022-01-26 09:40:12 [main] Using RdRand as an additional entropy source
+2022-01-26 09:40:12 [main] Default data directory /root/.bitcoin
+2022-01-26 09:40:12 [main] Using data directory /root/.electrumsv-sdk/component_datadirs/node/node1/regtest
+2022-01-26 09:40:12 [main] Using config file /usr/local/lib/python3.10/site-packages/electrumsv_node/bitcoin.conf
+2022-01-26 09:40:12 [main] Using at most 125 automatic connections (1048576 file descriptors available)
+2022-01-26 09:40:12 [main] Using 32 MiB out of 32 requested for signature cache, able to store 1048576 elements
+2022-01-26 09:40:12 [main] Using 32 MiB out of 32 requested for invalid signature cache, able to store 1048576 elements
+2022-01-26 09:40:12 [main] Using 64 MiB out of 64 requested for script execution cache, able to store 2097152 elements
+2022-01-26 09:40:12 [main] Using 6 threads for script verification
+2022-01-26 09:40:12 [bitcoin-scriptch_0_1] bitcoin-scriptch_0_1 thread start
+2022-01-26 09:40:12 [bitcoin-scriptch_0_0] bitcoin-scriptch_0_0 thread start
+2022-01-26 09:40:12 [bitcoin-scriptch_0_2] bitcoin-scriptch_0_2 thread start
+2022-01-26 09:40:12 [bitcoin-scriptch_0_3] bitcoin-scriptch_0_3 thread start
+2022-01-26 09:40:12 [bitcoin-scriptch_0_4] bitcoin-scriptch_0_4 thread start
+2022-01-26 09:40:12 [bitcoin-scriptch_0_5] bitcoin-scriptch_0_5 thread start
+2022-01-26 09:40:12 [bitcoin-scriptch_1_0] bitcoin-scriptch_1_0 thread start
+2022-01-26 09:40:12 [bitcoin-scriptch_1_1] bitcoin-scriptch_1_1 thread start
+2022-01-26 09:40:12 [bitcoin-scriptch_1_2] bitcoin-scriptch_1_2 thread start
+2022-01-26 09:40:12 [bitcoin-scriptch_1_3] bitcoin-scriptch_1_3 thread start
+2022-01-26 09:40:12 [bitcoin-scriptch_1_5] bitcoin-scriptch_1_5 thread start
+2022-01-26 09:40:12 [bitcoin-scriptch_1_4] bitcoin-scriptch_1_4 thread start
+2022-01-26 09:40:12 [bitcoin-scriptch_2_0] bitcoin-scriptch_2_0 thread start
+2022-01-26 09:40:12 [bitcoin-scriptch_2_1] bitcoin-scriptch_2_1 thread start
+2022-01-26 09:40:12 [bitcoin-scriptch_2_2] bitcoin-scriptch_2_2 thread start
+2022-01-26 09:40:12 [bitcoin-scriptch_2_3] bitcoin-scriptch_2_3 thread start
+2022-01-26 09:40:12 [bitcoin-scriptch_2_4] bitcoin-scriptch_2_4 thread start
+2022-01-26 09:40:12 [bitcoin-scriptch_2_5] bitcoin-scriptch_2_5 thread start
+2022-01-26 09:40:12 [bitcoin-scriptch_3_0] bitcoin-scriptch_3_0 thread start
+2022-01-26 09:40:12 [bitcoin-scriptch_3_1] bitcoin-scriptch_3_1 thread start
+2022-01-26 09:40:12 [bitcoin-scriptch_3_2] bitcoin-scriptch_3_2 thread start
+2022-01-26 09:40:12 [bitcoin-scriptch_3_3] bitcoin-scriptch_3_3 thread start
+2022-01-26 09:40:12 [bitcoin-scriptch_3_5] bitcoin-scriptch_3_5 thread start
+2022-01-26 09:40:12 [bitcoin-scriptch_3_4] bitcoin-scriptch_3_4 thread start
+2022-01-26 09:40:12 [main] Opening LevelDB in /root/.electrumsv-sdk/component_datadirs/node/node1/regtest/mempoolTxDB
+2022-01-26 09:40:12 [main] Opened LevelDB successfully
+2022-01-26 09:40:12 [main] Using obfuscation key for /root/.electrumsv-sdk/component_datadirs/node/node1/regtest/mempoolTxDB: 0000000000000000
+2022-01-26 09:40:12 [main] Cross-check of mempool file and transaction database failed: Failed to open mempool file from disk. Continuing with empty mempool and transaction database.
+2022-01-26 09:40:12 [mempooldb-55854d8b1540] Wiping LevelDB in /root/.electrumsv-sdk/component_datadirs/node/node1/regtest/mempoolTxDB
+2022-01-26 09:40:12 [mempooldb-55854d8b1540] Opening LevelDB in /root/.electrumsv-sdk/component_datadirs/node/node1/regtest/mempoolTxDB
+2022-01-26 09:40:12 [mempooldb-55854d8b1540] Opened LevelDB successfully
+2022-01-26 09:40:12 [mempooldb-55854d8b1540] Using obfuscation key for /root/.electrumsv-sdk/component_datadirs/node/node1/regtest/mempoolTxDB: 0000000000000000
+2022-01-26 09:40:12 [scheduler] scheduler thread start
+2022-01-26 09:40:12 [main] HTTP: creating work queue of depth 16
+2022-01-26 09:40:12 [main] Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcuser for rpcauth auth generation.
+2022-01-26 09:40:12 [main] HTTP: starting 4 worker threads
+2022-01-26 09:40:12 [main] init message: Verifying wallet(s)...
+2022-01-26 09:40:12 [main] Using BerkeleyDB version Berkeley DB 5.3.28: (September  9, 2013)
+2022-01-26 09:40:12 [main] Using wallet wallet.dat
+2022-01-26 09:40:12 [main] CDBEnv::Open: LogDir=/root/.electrumsv-sdk/component_datadirs/node/node1/regtest/database ErrorFile=/root/.electrumsv-sdk/component_datadirs/node/node1/regtest/db.log
+2022-01-26 09:40:12 [worker0-N-ConnmanPool] ConnmanPool ThreadPool thread 0 starting
+2022-01-26 09:40:12 [worker1-N-ConnmanPool] ConnmanPool ThreadPool thread 1 starting
+2022-01-26 09:40:12 [worker2-N-ConnmanPool] ConnmanPool ThreadPool thread 2 starting
+2022-01-26 09:40:12 [worker3-N-ConnmanPool] ConnmanPool ThreadPool thread 3 starting
+2022-01-26 09:40:12 [worker4-N-ConnmanPool] ConnmanPool ThreadPool thread 4 starting
+2022-01-26 09:40:12 [worker5-N-ConnmanPool] ConnmanPool ThreadPool thread 5 starting
+2022-01-26 09:40:12 [worker6-N-ConnmanPool] ConnmanPool ThreadPool thread 6 starting
+2022-01-26 09:40:12 [worker7-N-ConnmanPool] ConnmanPool ThreadPool thread 7 starting
+2022-01-26 09:40:12 [worker8-N-ConnmanPool] ConnmanPool ThreadPool thread 8 starting
+2022-01-26 09:40:12 [worker9-N-ConnmanPool] ConnmanPool ThreadPool thread 9 starting
+2022-01-26 09:40:12 [worker10-N-ConnmanPool] ConnmanPool ThreadPool thread 10 starting
+2022-01-26 09:40:12 [worker11-N-ConnmanPool] ConnmanPool ThreadPool thread 11 starting
+2022-01-26 09:40:12 [worker0-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 0 starting
+2022-01-26 09:40:12 [worker1-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 1 starting
+2022-01-26 09:40:12 [worker2-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 2 starting
+2022-01-26 09:40:12 [worker3-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 3 starting
+2022-01-26 09:40:12 [worker4-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 4 starting
+2022-01-26 09:40:12 [worker5-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 5 starting
+2022-01-26 09:40:12 [worker6-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 6 starting
+2022-01-26 09:40:12 [worker7-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 7 starting
+2022-01-26 09:40:12 [worker8-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 8 starting
+2022-01-26 09:40:12 [worker9-L-TxnValidatorPool] TxnValidatorPool ThreadPool thread 9 starting
+2022-01-26 09:40:12 [worker10-L-TxnValidatorPool] TxnValidatorPool ThreadPool thread 10 starting
+2022-01-26 09:40:12 [worker11-L-TxnValidatorPool] TxnValidatorPool ThreadPool thread 11 starting
+2022-01-26 09:40:12 [worker0-N-DSAttemptHandlerFast] DSAttemptHandlerFast ThreadPool thread 0 starting
+2022-01-26 09:40:12 [worker1-N-DSAttemptHandlerFast] DSAttemptHandlerFast ThreadPool thread 1 starting
+2022-01-26 09:40:12 [worker0-N-DSAttemptHandlerSlow] DSAttemptHandlerSlow ThreadPool thread 0 starting
+2022-01-26 09:40:12 [worker1-N-DSAttemptHandlerSlow] DSAttemptHandlerSlow ThreadPool thread 1 starting
+2022-01-26 09:40:12 [worker0-N-CAsyncTaskPool] CAsyncTaskPool ThreadPool thread 0 starting
+2022-01-26 09:40:12 [worker1-N-CAsyncTaskPool] CAsyncTaskPool ThreadPool thread 1 starting
+2022-01-26 09:40:12 [worker2-N-CAsyncTaskPool] CAsyncTaskPool ThreadPool thread 2 starting
+2022-01-26 09:40:12 [worker3-N-CAsyncTaskPool] CAsyncTaskPool ThreadPool thread 3 starting
+2022-01-26 09:40:12 [worker4-N-CAsyncTaskPool] CAsyncTaskPool ThreadPool thread 4 starting
+2022-01-26 09:40:12 [invalidtxnpublisher] invalidtxnpublisher thread start
+2022-01-26 09:40:12 [main] Bound to [::]:18444
+2022-01-26 09:40:12 [main] Bound to 0.0.0.0:18444
+2022-01-26 09:40:12 [zmqpublisherthread] zmqpublisherthread thread start
+2022-01-26 09:40:12 [main] Cache configuration:
+2022-01-26 09:40:12 [main] * Using 56.2MiB for block index database
+2022-01-26 09:40:12 [main] * Using 14.1MiB for Merkle Tree index database
+2022-01-26 09:40:12 [main] * Using 8.0MiB for chain state database
+2022-01-26 09:40:12 [main] * Using 371.7MiB for in-memory UTXO set (plus up to 953.7MiB of unused mempool space and 0.0MiB of disk space)
+2022-01-26 09:40:12 [main] init message: Loading block index...
+2022-01-26 09:40:12 [main] Opening LevelDB in /root/.electrumsv-sdk/component_datadirs/node/node1/regtest/blocks/index
+2022-01-26 09:40:12 [main] Opened LevelDB successfully
+2022-01-26 09:40:12 [main] Using obfuscation key for /root/.electrumsv-sdk/component_datadirs/node/node1/regtest/blocks/index: 0000000000000000
+2022-01-26 09:40:12 [main] Opening LevelDB in /root/.electrumsv-sdk/component_datadirs/node/node1/regtest/merkle/index
+2022-01-26 09:40:12 [main] Opened LevelDB successfully
+2022-01-26 09:40:12 [main] Using obfuscation key for /root/.electrumsv-sdk/component_datadirs/node/node1/regtest/merkle/index: 0000000000000000
+2022-01-26 09:40:12 [main] Using up to 2 additional threads for Merkle tree computation
+2022-01-26 09:40:12 [main] LoadMerkleTreeIndexDB() : Index in the database is out of sync, rebuilding index from current data files
+2022-01-26 09:40:12 [worker2-N-MerkleTreeThreadPool] MerkleTreeThreadPool ThreadPool thread 2 starting
+2022-01-26 09:40:12 [worker0-N-MerkleTreeThreadPool] MerkleTreeThreadPool ThreadPool thread 0 starting
+2022-01-26 09:40:12 [worker1-N-MerkleTreeThreadPool] MerkleTreeThreadPool ThreadPool thread 1 starting
+2022-01-26 09:40:12 [main] Wiping LevelDB in /root/.electrumsv-sdk/component_datadirs/node/node1/regtest/merkle/index
+2022-01-26 09:40:12 [main] Opening LevelDB in /root/.electrumsv-sdk/component_datadirs/node/node1/regtest/merkle/index
+2022-01-26 09:40:12 [main] Opened LevelDB successfully
+2022-01-26 09:40:12 [main] Using obfuscation key for /root/.electrumsv-sdk/component_datadirs/node/node1/regtest/merkle/index: 0000000000000000
+2022-01-26 09:40:12 [main] ReindexMerkleTreeStoreNL() : Merkle Trees index creation took 11ms
+2022-01-26 09:40:12 [main] Opening LevelDB in /root/.electrumsv-sdk/component_datadirs/node/node1/regtest/chainstate
+2022-01-26 09:40:12 [main] Opened LevelDB successfully
+2022-01-26 09:40:12 [main] Wrote new obfuscate key for /root/.electrumsv-sdk/component_datadirs/node/node1/regtest/chainstate: d102052080d31b72
+2022-01-26 09:40:12 [main] Using obfuscation key for /root/.electrumsv-sdk/component_datadirs/node/node1/regtest/chainstate: d102052080d31b72
+2022-01-26 09:40:12 [main] LoadBlockFileInfo: last block file = 0
+2022-01-26 09:40:12 [main] LoadBlockFileInfo: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2022-01-26 09:40:12 [main] Checking all blk files are present...
+2022-01-26 09:40:12 [main] LoadBlockIndexDB: transaction index disabled
+2022-01-26 09:40:12 [main] Initializing databases...
+2022-01-26 09:40:12 [main] Pre-allocating up to position 0x1000000 in blk00000.dat
+2022-01-26 09:40:12 [main] init message: Verifying blocks...
+2022-01-26 09:40:12 [main] CheckSafeModeParametersForAllForksOnStartup: global safe mode state restored to level 0 in 0ms
+2022-01-26 09:40:12 [main]  block index              51ms
+2022-01-26 09:40:12 [main] init message: Loading wallet...
+2022-01-26 09:40:12 [main] nFileVersion = 101000800
+2022-01-26 09:40:12 [main] Keys: 0 plaintext, 0 encrypted, 0 w/ metadata, 0 total
+2022-01-26 09:40:12 [main] Performing wallet upgrade to 60000
+2022-01-26 09:40:12 [main] keypool added 2000 keys (1000 internal), size=2000 (1000 internal)
+2022-01-26 09:40:12 [main]  wallet                  738ms
+2022-01-26 09:40:12 [main] setKeyPool.size() = 2000
+2022-01-26 09:40:12 [main] mapWallet.size() = 0
+2022-01-26 09:40:12 [main] mapAddressBook.size() = 0
+2022-01-26 09:40:12 [main] conf=/usr/local/lib/python3.10/site-packages/electrumsv_node/bitcoin.conf
+2022-01-26 09:40:12 [main] datadir=/root/.electrumsv-sdk/component_datadirs/node/node1
+2022-01-26 09:40:12 [main] excessiveblocksize=10000000000
+2022-01-26 09:40:12 [main] invalidtxsink=ZMQ
+2022-01-26 09:40:12 [main] maxstackmemoryusageconsensus=0
+2022-01-26 09:40:12 [main] port=18444
+2022-01-26 09:40:12 [main] preload=1
+2022-01-26 09:40:12 [main] printtoconsole=1
+2022-01-26 09:40:12 [main] regtest
+2022-01-26 09:40:12 [main] rest
+2022-01-26 09:40:12 [main] rpcallowip=0.0.0.0/0
+2022-01-26 09:40:12 [main] rpcbind=0.0.0.0
+2022-01-26 09:40:12 [main] rpcport=18332
+2022-01-26 09:40:12 [main] server=1
+2022-01-26 09:40:12 [main] txindex=1
+2022-01-26 09:40:12 [main] wallet=wallet.dat
+2022-01-26 09:40:12 [main] whitelistrelay=1
+2022-01-26 09:40:12 [main] zmqpubdiscardedfrommempool=tcp://127.0.0.1:28332
+2022-01-26 09:40:12 [main] zmqpubhashblock=tcp://127.0.0.1:28332
+2022-01-26 09:40:12 [main] zmqpubhashtx=tcp://127.0.0.1:28332
+2022-01-26 09:40:12 [main] zmqpubinvalidtx=tcp://127.0.0.1:28332
+2022-01-26 09:40:12 [main] zmqpubrawblock=tcp://127.0.0.1:28332
+2022-01-26 09:40:12 [main] zmqpubrawtx=tcp://127.0.0.1:28332
+2022-01-26 09:40:12 [main] zmqpubremovedfrommempoolblock=tcp://127.0.0.1:28332
+2022-01-26 09:40:12 [import_files] import_files thread start
+2022-01-26 09:40:12 [loadblk] UpdateTip: new best=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 version=0x00000001 log2_work=1 tx=1 date='2011-02-02 23:16:42' progress=1.000000 cache=0.0MiB(0txo)
+2022-01-26 09:40:12 [main] mapBlockIndex.size() = 1
+2022-01-26 09:40:12 [main] nBestHeight = 0
+2022-01-26 09:40:12 [preload] preload thread start
+2022-01-26 09:40:12 [loadblk] Failed to deserialize mempool data on disk: Failed to open mempool file from disk. Continuing anyway with empty mempool.
+2022-01-26 09:40:12 [preload] Preload started
+2022-01-26 09:40:12 [mempooldb-55854d8b1540] Wiping LevelDB in /root/.electrumsv-sdk/component_datadirs/node/node1/regtest/mempoolTxDB
+2022-01-26 09:40:12 [main] init message: Loading addresses...
+2022-01-26 09:40:12 [preload] Preload finished in 0 [ms]. Preloaded 0 MB of data (100 % were already present in memory)
+2022-01-26 09:40:12 [main] ERROR: Read: Failed to open file /root/.electrumsv-sdk/component_datadirs/node/node1/regtest/peers.dat
+2022-01-26 09:40:12 [preload] preload thread exit
+2022-01-26 09:40:12 [main] Invalid or missing peers.dat; recreating
+2022-01-26 09:40:12 [mempooldb-55854d8b1540] Opening LevelDB in /root/.electrumsv-sdk/component_datadirs/node/node1/regtest/mempoolTxDB
+2022-01-26 09:40:12 [main] init message: Loading banlist...
+2022-01-26 09:40:12 [main] ERROR: Read: Failed to open file /root/.electrumsv-sdk/component_datadirs/node/node1/regtest/banlist.dat
+2022-01-26 09:40:12 [main] Invalid or missing banlist.dat; recreating
+2022-01-26 09:40:12 [main] init message: Starting network threads...
+2022-01-26 09:40:12 [net] net thread start
+2022-01-26 09:40:12 [dnsseed] dnsseed thread start
+2022-01-26 09:40:12 [dnsseed] Loading addresses from DNS seeds (could take a while)
+2022-01-26 09:40:12 [addcon] addcon thread start
+2022-01-26 09:40:12 [dnsseed] 0 addresses found from DNS seeds
+2022-01-26 09:40:12 [dnsseed] dnsseed thread exit
+2022-01-26 09:40:12 [opencon] opencon thread start
+2022-01-26 09:40:12 [openstream] openstream thread start
+2022-01-26 09:40:12 [msghand] msghand thread start
+2022-01-26 09:40:12 [main] init message: Done loading
+2022-01-26 09:40:12 [main] Preload wait for shutdown
+2022-01-26 09:40:12 [mempooldb-55854d8b1540] Opened LevelDB successfully
+2022-01-26 09:40:12 [mempooldb-55854d8b1540] Using obfuscation key for /root/.electrumsv-sdk/component_datadirs/node/node1/regtest/mempoolTxDB: 0000000000000000
+2022-01-26 09:40:12 [loadblk] Failed to deserialize non-final mempool data on disk: Failed to open non-final mempool file from disk. Continuing anyway.
+2022-01-26 09:40:12 [loadblk] import_files thread exit
+2022-01-26 09:40:33 [httpworker2] keypool reserve 1
+2022-01-26 09:40:33 [httpworker2] JournalingBlockAssembler::CreateNewBlock(): total size: 178 txs: 0 fees: 0 sigops 100
+2022-01-26 09:40:33 [httpworker2] Pre-allocating up to position 0x100000 in rev00000.dat
+2022-01-26 09:40:33 [httpworker2] Leaving InitialBlockDownload (latching to false)
+2022-01-26 09:40:33 [httpworker2] UpdateTip: new best=50987d87f59ce3f9f935d963af9c1e3c18445d82c4eef5ba8ca5e6272517ae63 height=1 version=0x20000000 log2_work=2 tx=2 date='2022-01-26 09:40:33' progress=1.000000 cache=0.0MiB(1txo)
+2022-01-26 09:40:33 [httpworker2] Checking mempool TxDB: found 0 transactions
+2022-01-26 09:40:33 [httpworker2] AddToWallet a8e3a1b662ba8ec67ed0b729a370e818b5f7a6ad68fad2b209eeff346678504d  new
+2022-01-26 09:40:33 [httpworker2] keypool keep 1
+2022-01-26 09:40:33 [httpworker2] JournalingBlockAssembler::CreateNewBlock(): total size: 178 txs: 0 fees: 0 sigops 100
+2022-01-26 09:40:33 [httpworker2] UpdateTip: new best=6bd729115620d656997273fce8e37a788b1363c9f430395565c8150706d396e3 height=2 version=0x20000000 log2_work=2.5849625 tx=3 date='2022-01-26 09:40:34' progress=1.000000 cache=0.0MiB(2txo)
+2022-01-26 09:40:33 [httpworker2] Checking mempool TxDB: found 0 transactions
+2022-01-26 09:40:33 [httpworker2] AddToWallet d31cb56f3852d138a7bac50ce0d69a7b918ec051f111cfa7fd2d74e970a1aaf7  new
+2022-01-26 09:40:33 [httpworker2] JournalingBlockAssembler::CreateNewBlock(): total size: 178 txs: 0 fees: 0 sigops 100
+2022-01-26 09:40:33 [httpworker2] UpdateTip: new best=6bce8addc30a114a1b6e612a35d1e2be9ad46814e0f205d9e46acc52e5ef1f31 height=3 version=0x20000000 log2_work=3 tx=4 date='2022-01-26 09:40:34' progress=1.000000 cache=0.0MiB(3txo)
+2022-01-26 09:40:33 [httpworker2] Checking mempool TxDB: found 0 transactions
+2022-01-26 09:40:33 [httpworker2] AddToWallet 8ec7836525c0c7962a10e846c361dfd32863d0db1407173b6f2ccbe61e7681b1  new
+2022-01-26 09:40:33 [httpworker2] JournalingBlockAssembler::CreateNewBlock(): total size: 178 txs: 0 fees: 0 sigops 100
+2022-01-26 09:40:33 [httpworker2] UpdateTip: new best=1e96a928bfd3d138d460e0a81ed7b1e0f9d04e78e9d63e986cda7d56d721b142 height=4 version=0x20000000 log2_work=3.3219281 tx=5 date='2022-01-26 09:40:35' progress=1.000000 cache=0.0MiB(4txo)
+2022-01-26 09:40:33 [httpworker2] Checking mempool TxDB: found 0 transactions
+2022-01-26 09:40:33 [httpworker2] AddToWallet 6dab2950608ba535366e44993e6a436e52ef8cc59dbd6b5909276cdf06b60eb1  new
+2022-01-26 09:40:33 [httpworker2] JournalingBlockAssembler::CreateNewBlock(): total size: 178 txs: 0 fees: 0 sigops 100
+2022-01-26 09:40:33 [httpworker2] UpdateTip: new best=68692d1597b61277e4930336cc2477cd534807c71bfb8d4e44e530a23c7643a2 height=5 version=0x20000000 log2_work=3.5849625 tx=6 date='2022-01-26 09:40:35' progress=1.000000 cache=0.0MiB(5txo)
+2022-01-26 09:40:33 [httpworker2] Checking mempool TxDB: found 0 transactions
+2022-01-26 09:40:33 [httpworker2] AddToWallet 8c39b86f5bc37ef0fdb83b30d733a955e19bcbfb95aee0782e7c7df17579c33a  new
+2022-01-26 09:40:33 [httpworker2] JournalingBlockAssembler::CreateNewBlock(): total size: 178 txs: 0 fees: 0 sigops 100
+2022-01-26 09:40:33 [httpworker2] UpdateTip: new best=2edb4ea113b81a88d6fec6ec5512afeedda136e670e0e3dc62be3dfcc0eb71a4 height=6 version=0x20000000 log2_work=3.8073549 tx=7 date='2022-01-26 09:40:35' progress=1.000000 cache=0.0MiB(6txo)
+2022-01-26 09:40:33 [httpworker2] Checking mempool TxDB: found 0 transactions
+2022-01-26 09:40:33 [httpworker2] AddToWallet b3c6d1e91cb08b58c3747434cb0f33e930c2eed0323a0a58025df92d3f43541a  new
+2022-01-26 09:40:33 [httpworker2] JournalingBlockAssembler::CreateNewBlock(): total size: 178 txs: 0 fees: 0 sigops 100
+2022-01-26 09:40:33 [httpworker2] UpdateTip: new best=1142b99f31145cf72efd885d0ddd9e49696048b50897ad15a613d9ac98998f86 height=7 version=0x20000000 log2_work=4 tx=8 date='2022-01-26 09:40:35' progress=1.000000 cache=0.0MiB(7txo)
+2022-01-26 09:40:33 [httpworker2] Checking mempool TxDB: found 0 transactions
+2022-01-26 09:40:33 [httpworker2] AddToWallet e71f19432e495f1f12c4a2ac2f0b91ff74f476bfa11f5c9e89ca35062dd871cd  new
+2022-01-26 09:40:33 [httpworker2] JournalingBlockAssembler::CreateNewBlock(): total size: 178 txs: 0 fees: 0 sigops 100
+2022-01-26 09:40:33 [httpworker2] UpdateTip: new best=16f168950fc49a03fabef1bfaf0e53f8107ec46d33d2c93e009b5cf9b3ee7a22 height=8 version=0x20000000 log2_work=4.169925 tx=9 date='2022-01-26 09:40:36' progress=1.000000 cache=0.0MiB(8txo)
+2022-01-26 09:40:33 [httpworker2] Checking mempool TxDB: found 0 transactions
+2022-01-26 09:40:33 [httpworker2] AddToWallet 6d89b5f492544b644e60e455b59652250a7b15fb4144be5ce6447f19b0d3e944  new
+2022-01-26 09:40:33 [httpworker2] JournalingBlockAssembler::CreateNewBlock(): total size: 178 txs: 0 fees: 0 sigops 100
+2022-01-26 09:40:33 [httpworker2] UpdateTip: new best=1feb70fd6c396a4cd5673707f012317abac5e5d34bea4bc5ec30fef625318b19 height=9 version=0x20000000 log2_work=4.3219281 tx=10 date='2022-01-26 09:40:36' progress=1.000000 cache=0.0MiB(9txo)
+2022-01-26 09:40:33 [httpworker2] Checking mempool TxDB: found 0 transactions
+2022-01-26 09:40:33 [httpworker2] AddToWallet bafc611d2ca781281ffbe7f0f6d0297584bfcffbf27bf0fba097a2859ac0ef31  new
+2022-01-26 09:40:33 [httpworker2] JournalingBlockAssembler::CreateNewBlock(): total size: 178 txs: 0 fees: 0 sigops 100
+2022-01-26 09:40:33 [httpworker2] UpdateTip: new best=7303677ae5f107541908a2864417cc4d994fd2194296bbd6aaef4003a0ef8fa9 height=10 version=0x20000000 log2_work=4.4594316 tx=11 date='2022-01-26 09:40:36' progress=1.000000 cache=0.0MiB(10txo)
+2022-01-26 09:40:33 [httpworker2] Checking mempool TxDB: found 0 transactions
+2022-01-26 09:40:33 [httpworker2] AddToWallet 344f08a1f42120c84610e76611e34ca7d39966531e231a0000bf3acddc6a52f3  new
+2022-01-26 09:41:13 [opencon] Adding fixed seed nodes as DNS doesn't seem to be available.

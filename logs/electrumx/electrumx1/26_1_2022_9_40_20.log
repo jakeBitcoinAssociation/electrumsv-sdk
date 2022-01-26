@@ -1,0 +1,83 @@
+INFO:electrumx:ElectrumX server starting
+INFO:electrumx:logging level: DEBUG
+INFO:Controller:Python version: 3.10.2 (main, Jan 18 2022, 19:45:14) [GCC 10.2.1 20210110]
+INFO:Controller:software version: ElectrumX 1.20.2
+INFO:Controller:aiorpcX version: 0.22.1
+INFO:Controller:supported protocol versions: 1.4-1.4.2
+INFO:Controller:event loop policy: None
+INFO:Controller:reorg limit is 8,000 blocks
+INFO:Daemon:daemon #1 at 127.0.0.1:18332/ (current)
+INFO:DB:switching current directory to /root/.electrumsv-sdk/component_datadirs/electrumx/electrumx1
+INFO:DB:using leveldb for DB backend
+INFO:DB:created new database
+INFO:DB:creating metadata directory
+INFO:DB:UTXO DB version: 8
+INFO:DB:coin: BitcoinSV
+INFO:DB:network: regtest
+INFO:DB:height: -1
+INFO:DB:tip: 0000000000000000000000000000000000000000000000000000000000000000
+INFO:DB:tx count: 0
+INFO:DB:chain size: 0 GB (0 bytes)
+INFO:DB:flushing DB cache at 1,200 MB
+INFO:DB:sync time so far: 00s
+INFO:History:history DB version: 1
+INFO:History:flush count: 0
+INFO:BlockProcessor:created block directory meta/blocks
+INFO:BlockProcessor:scanning block directory meta/blocks...
+ERROR:SessionManager:RPC server failed to listen on localhost:8000: [Errno 99] error while attempting to bind on address ('::1', 8000, 0, 0): cannot assign requested address
+INFO:BlockProcessor:catching up to daemon height 0 (1 blocks behind)
+INFO:BlockProcessor:height 0 of 0 0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 2011-02-02 23:16:42 0.000GB 1 txs chain 0GB
+INFO:History:flushed history in 0.0s for 1 addrs
+INFO:DB:flushed 1 blocks size 0.0 GB with 1 txs, 1 UTXO adds, 0 spends in 0.0s, committing...
+INFO:DB:flush #1 took 0.0s.  Height 0 txs: 1 (+1) size: 285 (+285)
+INFO:DB:MB/sec since genesis: 0.01, since last flush: 0.01
+INFO:DB:sync time: 00s  ETA: 02s
+INFO:BlockProcessor:ElectrumX 1.20.2 synced to height 0
+INFO:DB:closing DBs to re-open for serving
+INFO:DB:opened UTXO DB (for sync: False)
+INFO:DB:UTXO DB version: 8
+INFO:DB:coin: BitcoinSV
+INFO:DB:network: regtest
+INFO:DB:height: 0
+INFO:DB:tip: 0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206
+INFO:DB:tx count: 1
+INFO:DB:chain size: 0 GB (285 bytes)
+INFO:History:history DB version: 1
+INFO:History:flush count: 1
+INFO:DB:populating header merkle cache...
+INFO:MemPool:beginning processing of daemon mempool.  This can take some time...
+INFO:DB:header merkle cache populated in 0.0s
+INFO:SessionManager:max session count: 1,000
+INFO:SessionManager:session timeout: 600 seconds
+INFO:SessionManager:session cost hard limit 0
+INFO:SessionManager:session cost soft limit 0
+INFO:SessionManager:bandwidth unit cost 5,000
+INFO:SessionManager:request sleep 2,500ms
+INFO:SessionManager:request timeout 30s
+INFO:SessionManager:initial concurrent 10
+INFO:SessionManager:max response size 10,000,000 bytes
+INFO:MemPool:synced in 0.06s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:SessionManager:TCP server listening on all_interfaces:51001
+INFO:PeerManager:peer discovery: ON
+INFO:PeerManager:announce ourself: True
+INFO:PeerManager:my clearnet self: None
+INFO:PeerManager:force use of proxy: False
+INFO:PeerManager:beginning peer discovery...
+INFO:PeerManager:trying to detect proxy on "localhost" ports [9050, 9150, 1080]
+INFO:PeerManager:no proxy detected, will try later
+INFO:ElectrumX:[0] TCP 127.0.0.1:35184, 0 total
+INFO:ElectrumX:[1] TCP 127.0.0.1:35192, 1 total
+INFO:BlockProcessor:fetched new block height 1 hash 50987d87f59ce3f9f935d963af9c1e3c18445d82c4eef5ba8ca5e6272517ae63
+INFO:BlockProcessor:fetched new block height 7 hash 1142b99f31145cf72efd885d0ddd9e49696048b50897ad15a613d9ac98998f86
+INFO:BlockProcessor:fetched new block height 2 hash 6bd729115620d656997273fce8e37a788b1363c9f430395565c8150706d396e3
+INFO:BlockProcessor:fetched new block height 3 hash 6bce8addc30a114a1b6e612a35d1e2be9ad46814e0f205d9e46acc52e5ef1f31
+INFO:BlockProcessor:fetched new block height 4 hash 1e96a928bfd3d138d460e0a81ed7b1e0f9d04e78e9d63e986cda7d56d721b142
+INFO:BlockProcessor:fetched new block height 5 hash 68692d1597b61277e4930336cc2477cd534807c71bfb8d4e44e530a23c7643a2
+INFO:BlockProcessor:fetched new block height 6 hash 2edb4ea113b81a88d6fec6ec5512afeedda136e670e0e3dc62be3dfcc0eb71a4
+INFO:BlockProcessor:fetched new block height 8 hash 16f168950fc49a03fabef1bfaf0e53f8107ec46d33d2c93e009b5cf9b3ee7a22
+INFO:BlockProcessor:fetched new block height 9 hash 1feb70fd6c396a4cd5673707f012317abac5e5d34bea4bc5ec30fef625318b19
+INFO:BlockProcessor:fetched new block height 10 hash 7303677ae5f107541908a2864417cc4d994fd2194296bbd6aaef4003a0ef8fa9
+DEBUG:MemPool:waiting for DB to sync
+INFO:DB:flush #2 took 0.0s.  Height 10 txs: 11 (+10) size: 2,075 (+1,790)
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses

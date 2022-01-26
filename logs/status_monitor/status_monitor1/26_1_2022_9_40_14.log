@@ -1,0 +1,8 @@
+DEBUG:asyncio:Using selector: EpollSelector
+======== Running on http://0.0.0.0:56565 ========
+(Press CTRL+C to quit)
+DEBUG:status_monitor:Status change for: Component(id=merchant_api1, component_type=merchant_api, component_state=Running)
+DEBUG:status_monitor:Status change for: Component(id=electrumx1, component_type=electrumx, component_state=Running)
+DEBUG:status_monitor:Status change for: Component(id=electrumsv1, component_type=electrumsv, component_state=Running)
+DEBUG:status_monitor:Status change for: Component(id=whatsonchain1, component_type=whatsonchain, component_state=Running)
+DEBUG:status_monitor:Status change for: Component(id=simple_indexer1, component_type=simple_indexer, component_state=Running)

@@ -1,0 +1,15 @@
+2022-01-26 09:40:36 DEBUG    chain                    opening headers file /root/.electrumsv-sdk/remote_repos/simple-indexer/node_headers.mmap
+2022-01-26 09:40:36 DEBUG    chain                    /root/.electrumsv-sdk/remote_repos/simple-indexer/node_headers.mmap not found, creating it
+2022-01-26 09:40:36 DEBUG    chain                    opening headers file /root/.electrumsv-sdk/remote_repos/simple-indexer/node_headers.mmap
+2022-01-26 09:40:36 DEBUG    chain                    opening headers file /root/.electrumsv-sdk/remote_repos/simple-indexer/local_headers.mmap
+2022-01-26 09:40:36 DEBUG    chain                    /root/.electrumsv-sdk/remote_repos/simple-indexer/local_headers.mmap not found, creating it
+2022-01-26 09:40:36 DEBUG    chain                    opening headers file /root/.electrumsv-sdk/remote_repos/simple-indexer/local_headers.mmap
+2022-01-26 09:40:36 DEBUG    aiohttp-rest-api         started on http://0.0.0.0:49241
+2022-01-26 09:40:36 DEBUG    aiohttp-rest-api         starting...
+2022-01-26 09:40:36 DEBUG    aiohttp-rest-api         file logging path=/root/.electrumsv-sdk/remote_repos/simple-indexer/logs/simple_indexer.log
+2022-01-26 09:40:36 DEBUG    blockchain-state-monitor Node at: http://rpcuser:rpcpassword@127.0.0.1:18332 now available.
+2022-01-26 09:40:36 INFO     blockchain-state-monitor New best tip height: 10, hash: 7303677ae5f107541908a2864417cc4d994fd2194296bbd6aaef4003a0ef8fa9
+2022-01-26 09:40:36 INFO     poll-node-tip-thread     Starting thread to poll for node tip
+2022-01-26 09:40:36 DEBUG    blockchain-state-monitor Initial block download complete. Waiting for the next block...
+2022-01-26 09:40:36 DEBUG    blockchain-state-monitor Requesting mempool...
+2022-01-26 09:40:36 DEBUG    blockchain-state-monitor Listening to node ZMQ...

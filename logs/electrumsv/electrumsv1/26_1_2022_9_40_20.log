@@ -1,0 +1,45 @@
+2022-01-26 09:40:35,608:DEBUG:config:electrum-sv directory '/root/.electrumsv-sdk/component_datadirs/electrumsv/electrumsv1/regtest'
+2022-01-26 09:40:35,623:DEBUG:asyncio:Using selector: EpollSelector
+2022-01-26 09:40:35,623:DEBUG:asyncio:Using selector: EpollSelector
+2022-01-26 09:40:35,624:DEBUG:async:starting async thread
+2022-01-26 09:40:35,624:DEBUG:async:async thread started
+2022-01-26 09:40:35,624:DEBUG:app_state:cached chain data file not found
+2022-01-26 09:40:35,624:DEBUG:chain:opening headers file /root/.electrumsv-sdk/component_datadirs/electrumsv/electrumsv1/regtest/headers2
+2022-01-26 09:40:35,624:DEBUG:chain:/root/.electrumsv-sdk/component_datadirs/electrumsv/electrumsv1/regtest/headers2 not found, creating it
+2022-01-26 09:40:35,625:DEBUG:chain:opening headers file /root/.electrumsv-sdk/component_datadirs/electrumsv/electrumsv1/regtest/headers2
+2022-01-26 09:40:35,625:INFO:app_state:chain #1: tip=Header(version=0x1, prev_hash=0000000000000000000000000000000000000000000000000000000000000000, merkle_root=4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b, timestamp=1296688602, bits=0x545259519, nonce=2, hash=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206, height=0) log2_work=1.0
+2022-01-26 09:40:35,625:DEBUG:exchangerate:using exchange CoinGecko
+2022-01-26 09:40:35,625:WARNING:daemon:No password set for REST API. Access is therefore granted to any users.
+2022-01-26 09:40:35,626:INFO:network:Read 0 electrumx servers from config file
+2022-01-26 09:40:35,627:WARNING:config:not changing config key 'server' set on the command line
+2022-01-26 09:40:35,627:INFO:network:main server: ('host.docker.internal', 51001, 't'), proxy: None
+2022-01-26 09:40:35,627:DEBUG:network:starting...
+2022-01-26 09:40:35,627:INFO:network:Pending subscription to script hashes
+2022-01-26 09:40:35,628:INFO:[host.docker.internal:51001 TCP #0]:connecting...
+2022-01-26 09:40:35,628:DEBUG:wallet-app:setting up daemon-app
+2022-01-26 09:40:35,629:DEBUG:config:electrum-sv directory '/root/.electrumsv-sdk/component_datadirs/electrumsv/electrumsv1/regtest'
+2022-01-26 09:40:35,629:INFO:[localhost:51001 TCP #1]:connecting...
+2022-01-26 09:40:35,638:DEBUG:wallet-app:entering application main loop
+2022-01-26 09:40:35,638:DEBUG:aiohttp-rest-api:starting...
+2022-01-26 09:40:35,639:DEBUG:[localhost:51001 TCP #1]:server string: ElectrumX 1.20.2
+2022-01-26 09:40:35,639:DEBUG:[localhost:51001 TCP #1]:negotiated protocol: 1.4.2
+2022-01-26 09:40:35,639:DEBUG:aiohttp-rest-api:started on http://0.0.0.0:9999
+2022-01-26 09:40:35,644:DEBUG:[localhost:51001 TCP #1]:connected tip at height 0
+2022-01-26 09:40:35,644:WARNING:network:main server ('host.docker.internal', 51001, 't') is not good, but retaining it because auto-connect is off
+2022-01-26 09:40:37,641:WARNING:network:main server ('host.docker.internal', 51001, 't') is not good, but retaining it because auto-connect is off
+2022-01-26 09:40:41,229:DEBUG:[localhost:51001 TCP #1]:connecting my own tip 7303677ae5f107541908a2864417cc4d994fd2194296bbd6aaef4003a0ef8fa9
+2022-01-26 09:40:41,229:DEBUG:[localhost:51001 TCP #1]:requesting 1 headers at heights [1]
+2022-01-26 09:40:41,230:INFO:[localhost:51001 TCP #1]:requesting 2016 headers from height 2
+2022-01-26 09:40:41,231:INFO:[localhost:51001 TCP #1]:received just 9 headers
+2022-01-26 09:40:41,235:INFO:[localhost:51001 TCP #1]:connected 9 headers up to height 10
+2022-01-26 09:40:41,235:DEBUG:[localhost:51001 TCP #1]:connected tip at height 10
+2022-01-26 09:40:47,642:INFO:[host.docker.internal:51001 TCP #0]:connecting...
+2022-01-26 09:40:49,648:WARNING:network:main server ('host.docker.internal', 51001, 't') is not good, but retaining it because auto-connect is off
+2022-01-26 09:40:55,645:WARNING:network:main server ('host.docker.internal', 51001, 't') is not good, but retaining it because auto-connect is off
+2022-01-26 09:41:10,650:INFO:[host.docker.internal:51001 TCP #0]:connecting...
+2022-01-26 09:41:12,656:WARNING:network:main server ('host.docker.internal', 51001, 't') is not good, but retaining it because auto-connect is off
+2022-01-26 09:41:15,647:WARNING:network:main server ('host.docker.internal', 51001, 't') is not good, but retaining it because auto-connect is off
+2022-01-26 09:41:35,648:WARNING:network:main server ('host.docker.internal', 51001, 't') is not good, but retaining it because auto-connect is off
+2022-01-26 09:41:55,649:WARNING:network:main server ('host.docker.internal', 51001, 't') is not good, but retaining it because auto-connect is off
+2022-01-26 09:41:55,658:INFO:[host.docker.internal:51001 TCP #0]:connecting...
+2022-01-26 09:41:57,664:WARNING:network:main server ('host.docker.internal', 51001, 't') is not good, but retaining it because auto-connect is off

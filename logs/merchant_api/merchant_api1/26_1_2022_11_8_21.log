@@ -1,0 +1,624 @@
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Rest.StartupChecker[0]
+      Health checks starting.
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Rest.StartupChecker[0]
+      API version: 1.3.0
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Rest.StartupChecker[0]
+      Build version: 1.0.0
+[40m[32minfo[39m[22m[49m: nChain.CreateDB.CreateDB[0]
+      Trying to connect to DB: 'merchant_gateway'
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Rest.StartupChecker[0]
+      Successfully connected to DB.
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Rest.StartupChecker[0]
+      Starting with execution of CreateDb ...
+[40m[32minfo[39m[22m[49m: nChain.CreateDB.CreateDB[0]
+      Trying to connect to DB: 'merchant_gateway'
+[40m[32minfo[39m[22m[49m: nChain.CreateDB.CreateDB[0]
+      Trying to connect to DB: 'merchant_gateway'
+[40m[32minfo[39m[22m[49m: nChain.CreateDB.CreateDB[0]
+      WARNING!!!!
+[40m[32minfo[39m[22m[49m: nChain.CreateDB.CreateDB[0]
+      Folder '/root/.net/MerchantAPI.APIGateway.Rest/rsnt3zoc.ryl/APIGateway.Database/Scripts/Postgres/Upgrade_v12_v13' and its scripts will be ignored.
+[40m[32minfo[39m[22m[49m: nChain.CreateDB.CreateDB[0]
+      Trying to connect to DB: 'merchant_gateway'
+[40m[1m[33mwarn[39m[22m[49m: nChain.CreateDB.CreateDB[0]
+      Table version added. If you want to execute scripts in 00_CreateDB, drop database first.
+[40m[32minfo[39m[22m[49m: nChain.CreateDB.CreateDB[0]
+      Execution of scripts from folder '/root/.net/MerchantAPI.APIGateway.Rest/rsnt3zoc.ryl/APIGateway.Database/Scripts/Postgres/01'.
+[40m[32minfo[39m[22m[49m: nChain.CreateDB.CreateDB[0]
+      Starting with execution of script: /root/.net/MerchantAPI.APIGateway.Rest/rsnt3zoc.ryl/APIGateway.Database/Scripts/Postgres/01/01_CreateTables.sql.
+[40m[32minfo[39m[22m[49m: nChain.CreateDB.CreateDB[0]
+      Starting with execution of script: /root/.net/MerchantAPI.APIGateway.Rest/rsnt3zoc.ryl/APIGateway.Database/Scripts/Postgres/01/02_GrantPermissions.sql.
+[40m[32minfo[39m[22m[49m: nChain.CreateDB.CreateDB[0]
+      Starting with execution of script: /root/.net/MerchantAPI.APIGateway.Rest/rsnt3zoc.ryl/APIGateway.Database/Scripts/Postgres/01/03_CreateIndexes.sql.
+[40m[32minfo[39m[22m[49m: nChain.CreateDB.CreateDB[0]
+      Starting with execution of script: /root/.net/MerchantAPI.APIGateway.Rest/rsnt3zoc.ryl/APIGateway.Database/Scripts/Postgres/01/05_InitialData.sql.
+[40m[32minfo[39m[22m[49m: nChain.CreateDB.CreateDB[0]
+      Starting with execution of script: /root/.net/MerchantAPI.APIGateway.Rest/rsnt3zoc.ryl/APIGateway.Database/Scripts/Postgres/01/06_AddErrorColumns.sql.
+[40m[32minfo[39m[22m[49m: nChain.CreateDB.CreateDB[0]
+      Execution of scripts from folder '/root/.net/MerchantAPI.APIGateway.Rest/rsnt3zoc.ryl/APIGateway.Database/Scripts/Postgres/02'.
+[40m[32minfo[39m[22m[49m: nChain.CreateDB.CreateDB[0]
+      Starting with execution of script: /root/.net/MerchantAPI.APIGateway.Rest/rsnt3zoc.ryl/APIGateway.Database/Scripts/Postgres/02/01_AddFunctionCreateConstraint.sql.
+[40m[32minfo[39m[22m[49m: nChain.CreateDB.CreateDB[0]
+      Starting with execution of script: /root/.net/MerchantAPI.APIGateway.Rest/rsnt3zoc.ryl/APIGateway.Database/Scripts/Postgres/02/02_AddTruncateConstraints.sql.
+[40m[32minfo[39m[22m[49m: nChain.CreateDB.CreateDB[0]
+      Starting with execution of script: /root/.net/MerchantAPI.APIGateway.Rest/rsnt3zoc.ryl/APIGateway.Database/Scripts/Postgres/02/03_AddColumnFeeAmountType.sql.
+[40m[32minfo[39m[22m[49m: nChain.CreateDB.CreateDB[0]
+      Execution of scripts from folder '/root/.net/MerchantAPI.APIGateway.Rest/rsnt3zoc.ryl/APIGateway.Database/Scripts/Postgres/03'.
+[40m[32minfo[39m[22m[49m: nChain.CreateDB.CreateDB[0]
+      Execution of scripts from folder '/root/.net/MerchantAPI.APIGateway.Rest/rsnt3zoc.ryl/APIGateway.Database/Scripts/Postgres/04'.
+[40m[32minfo[39m[22m[49m: nChain.CreateDB.CreateDB[0]
+      Starting with execution of script: /root/.net/MerchantAPI.APIGateway.Rest/rsnt3zoc.ryl/APIGateway.Database/Scripts/Postgres/04/01_AddUncofirmedAncestorColumn.sql.
+[40m[32minfo[39m[22m[49m: nChain.CreateDB.CreateDB[0]
+      Starting with execution of script: /root/.net/MerchantAPI.APIGateway.Rest/rsnt3zoc.ryl/APIGateway.Database/Scripts/Postgres/04/02_AddColumnZMQNotificationsEndpoint.sql.
+[40m[32minfo[39m[22m[49m: nChain.CreateDB.CreateDB[0]
+      Execution of scripts from folder '/root/.net/MerchantAPI.APIGateway.Rest/rsnt3zoc.ryl/APIGateway.Database/Scripts/Postgres/05'.
+[40m[32minfo[39m[22m[49m: nChain.CreateDB.CreateDB[0]
+      Starting with execution of script: /root/.net/MerchantAPI.APIGateway.Rest/rsnt3zoc.ryl/APIGateway.Database/Scripts/Postgres/05/01_AddColumnMerkleFormat.sql.
+[40m[32minfo[39m[22m[49m: nChain.CreateDB.CreateDB[0]
+      Execution of scripts from folder '/root/.net/MerchantAPI.APIGateway.Rest/rsnt3zoc.ryl/APIGateway.Database/Scripts/Postgres/06'.
+[40m[32minfo[39m[22m[49m: nChain.CreateDB.CreateDB[0]
+      Starting with execution of script: /root/.net/MerchantAPI.APIGateway.Rest/rsnt3zoc.ryl/APIGateway.Database/Scripts/Postgres/06/01_Increase_Node_host_column_size.sql.
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Rest.StartupChecker[0]
+      CreateDB finished successfully.
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Rest.StartupChecker[0]
+      ExecuteCreateDb completed.
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Rest.StartupChecker[0]
+      Checking nodes connectivity
+[40m[1m[33mwarn[39m[22m[49m: MerchantAPI.APIGateway.Rest.StartupChecker[0]
+      There are no nodes present in database.
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Rest.StartupChecker[0]
+      Nodes connectivity check complete
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Rest.StartupChecker[0]
+      Checking nodes zmq notification services
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Rest.StartupChecker[0]
+      Nodes zmq notification services check complete
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Rest.StartupChecker[0]
+      Checking MinerId
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Rest.StartupChecker[0]
+      MinerId check completed successfully
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Rest.StartupChecker[0]
+      Successfully marked notifications that were not instantly sent to be sent from background job.
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Rest.StartupChecker[0]
+      Health checks completed successfully.
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile is available. Using '/root/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[58]
+      Creating key {ccc08a1c-96c2-43d9-9a24-8c9f524da23e} with creation date 2022-01-26 11:08:22Z, activation date 2022-01-26 11:08:22Z, and expiration date 2022-04-26 11:08:22Z.
+[40m[1m[33mwarn[39m[22m[49m: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[35]
+      No XML encryptor configured. Key {ccc08a1c-96c2-43d9-9a24-8c9f524da23e} may be persisted to storage in unencrypted form.
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository[39]
+      Writing data to file '/root/.aspnet/DataProtection-Keys/key-ccc08a1c-96c2-43d9-9a24-8c9f524da23e.xml'.
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.Actions.BlockChainInfo[0]
+      MerchantAPI.APIGateway.Domain.Actions.BlockChainInfo background service is starting
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.EventBus.InMemoryEventBus[0]
+      Added subscription to NewBlockDiscoveredEvent
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.NotificationsHandler.NotificationsHandler[0]
+      Starting notification handler background service
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.NotificationsHandler.NotificationsHandler[0]
+      Starting up '1' of slow tasks
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.NotificationsHandler.NotificationsHandler[0]
+      Starting up '1' of fast tasks
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.Actions.CleanUpTxHandler[0]
+      CleanUpTxHandler background service is starting
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Rest.Services.NotificationService[0]
+      MerchantAPI.APIGateway.Rest.Services.NotificationService background service is starting
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.EventBus.InMemoryEventBus[0]
+      Added subscription to NewNotificationEvent
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.Actions.BlockParser[0]
+      MerchantAPI.APIGateway.Domain.Actions.BlockParser background service is starting
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.EventBus.InMemoryEventBus[0]
+      Added subscription to NewBlockDiscoveredEvent
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.EventBus.InMemoryEventBus[0]
+      Added subscription to NewBlockAvailableInDB
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.Actions.InvalidTxHandler[0]
+      MerchantAPI.APIGateway.Domain.Actions.InvalidTxHandler background service is starting
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.EventBus.InMemoryEventBus[0]
+      Added subscription to InvalidTxDetectedEvent
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.EventBus.InMemoryEventBus[0]
+      Added subscription to RemovedFromMempoolEvent
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.Actions.BlockChecker[0]
+      BlockChecker background service is starting.
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Rest.Services.ZMQSubscriptionService[0]
+      ZMQSubscriptionService is starting.
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Rest.Services.ZMQSubscriptionService[0]
+      MerchantAPI.APIGateway.Rest.Services.ZMQSubscriptionService background service is starting
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.EventBus.InMemoryEventBus[0]
+      Added subscription to NodeAddedEvent
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.EventBus.InMemoryEventBus[0]
+      Added subscription to NodeDeletedEvent
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Now listening on: http://[::]:5050
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: PRODUCTION
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Content root path: /root/.electrumsv-sdk/remote_repos/merchant_api
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://127.0.0.1:5050/api/v1/Node application/json 97
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Authorization.DefaultAuthorizationService[1]
+      Authorization was successful.
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'MerchantAPI.APIGateway.Rest.Controllers.NodeController.Post (MerchantAPI.APIGateway.Rest)'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Post", controller = "Node"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MerchantAPI.APIGateway.Rest.ViewModels.NodeViewModelGet]] Post(MerchantAPI.APIGateway.Rest.ViewModels.NodeViewModelCreate) on controller MerchantAPI.APIGateway.Rest.Controllers.NodeController (MerchantAPI.APIGateway.Rest).
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.Models.Nodes[0]
+      Adding node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.BitcoinRpc.RpcClient[0]
+      Calling method 'getblockcount() on node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[101]
+      Received HTTP response after 20.0032ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[101]
+      End processing HTTP request after 24.8699ms - OK
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.BitcoinRpc.RpcClient[0]
+      Calling method 'activezmqnotifications() on node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[101]
+      Received HTTP response after 1.8993ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[101]
+      End processing HTTP request after 2.0137ms - OK
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.BitcoinRpc.RpcClient[0]
+      Calling method 'getblockchaininfo() on node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[101]
+      Received HTTP response after 0.7257ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[101]
+      End processing HTTP request after 0.8116ms - OK
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.BitcoinRpc.RpcClient[0]
+      Calling method 'getblockheader(0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206,...) on node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[101]
+      Received HTTP response after 0.4519ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[101]
+      End processing HTTP request after 0.5324ms - OK
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'MerchantAPI.APIGateway.Rest.ViewModels.NodeViewModelGet'.
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Rest.Services.ZMQSubscriptionService[0]
+      1 new nodes were added to repository. Will activate ZMQ subscriptions
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.BitcoinRpc.RpcClient[0]
+      Calling method 'activezmqnotifications() on node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[101]
+      Received HTTP response after 0.5596ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[101]
+      End processing HTTP request after 0.6534ms - OK
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action MerchantAPI.APIGateway.Rest.Controllers.NodeController.Post (MerchantAPI.APIGateway.Rest) in 150.4908ms
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'MerchantAPI.APIGateway.Rest.Controllers.NodeController.Post (MerchantAPI.APIGateway.Rest)'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished in 223.3433ms 201 application/json; charset=utf-8
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Rest.Services.ZMQSubscriptionService[0]
+      There are now 1 active subscriptions after updates to node list were processed
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Rest.Services.ZMQSubscriptionService[0]
+      New block with hash 0a5c4aa6629376b4bb5ff36ad77878b2f8d9ae064539317c42668a42606dad3b.
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Rest.Services.ZMQSubscriptionService[0]
+      New block with hash 7f1a2a8e17eefd230fb4c3378450bd1c411bbd3250fe2c1b1fc798b34b222070.
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Rest.Services.ZMQSubscriptionService[0]
+      New block with hash 0ef8abe3ad183b97093c4f5eebffb480b68ffee6752598117d4321b59756a6d5.
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Rest.Services.ZMQSubscriptionService[0]
+      New block with hash 11a9475c39ab98f58d29dd9173e942ce5233e66b1e9145c5eadc5be76447e39f.
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Rest.Services.ZMQSubscriptionService[0]
+      New block with hash 0827bb4601872d0f5306886e3eec84df762e4f1aa6aa8e918815ea62e35422ea.
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Rest.Services.ZMQSubscriptionService[0]
+      New block with hash 4ca8436167384b564ef0b2b9a9f9324fbd086e39295ce9df7a39e44ebe15c36d.
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.Actions.BlockParser[0]
+      Block parser got a new block 0a5c4aa6629376b4bb5ff36ad77878b2f8d9ae064539317c42668a42606dad3b inserting into database.
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Rest.Services.ZMQSubscriptionService[0]
+      New block with hash 3a584e46bef8e08da1a5f9ccff5ae896baf72e393f49964e8a15584bcac2a131.
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.BitcoinRpc.RpcClient[0]
+      Calling method 'getblockheader(0a5c4aa6629376b4bb5ff36ad77878b2f8d9ae064539317c42668a42606dad3b,...) on node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Rest.Services.ZMQSubscriptionService[0]
+      New block with hash 2500ea0a4976ea8ec94f3744e004505f335853c1c2a9d31d8e7788ba4790b6d1.
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Rest.Services.ZMQSubscriptionService[0]
+      New block with hash 0ed29e4ba33b1827070095833b4ee1a3d98d6349243fc3f9409d68c9f3497def.
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Rest.Services.ZMQSubscriptionService[0]
+      New block with hash 1fd9c0b64f5dcca5de973f400033de27420ef01389d25c6162d7cf4dc124c28a.
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[101]
+      Received HTTP response after 0.746ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[101]
+      End processing HTTP request after 0.9244ms - OK
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.BitcoinRpc.RpcClient[0]
+      Calling method 'getblockchaininfo() on node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[101]
+      Received HTTP response after 0.5765ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[101]
+      End processing HTTP request after 0.6621ms - OK
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.Actions.BlockParser[0]
+      Block parser got a new block 7f1a2a8e17eefd230fb4c3378450bd1c411bbd3250fe2c1b1fc798b34b222070 inserting into database.
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.BitcoinRpc.RpcClient[0]
+      Calling method 'getblockheader(7f1a2a8e17eefd230fb4c3378450bd1c411bbd3250fe2c1b1fc798b34b222070,...) on node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.Actions.BlockParser[0]
+      Block parser retrieved a new block 0a5c4aa6629376b4bb5ff36ad77878b2f8d9ae064539317c42668a42606dad3b from database. Parsing it.
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[101]
+      Received HTTP response after 0.5423ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[101]
+      End processing HTTP request after 0.6259ms - OK
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.BitcoinRpc.RpcClient[0]
+      Calling method 'getblockchaininfo() on node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.BitcoinRpc.RpcClient[0]
+      Calling method 'getblock(0a5c4aa6629376b4bb5ff36ad77878b2f8d9ae064539317c42668a42606dad3b,...) on node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[101]
+      Received HTTP response after 0.6645ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[101]
+      End processing HTTP request after 0.7362ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[101]
+      Received HTTP response after 2.8688ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[101]
+      End processing HTTP request after 2.9554ms - OK
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.Actions.BlockParser[0]
+      Block parser got a new block 0ef8abe3ad183b97093c4f5eebffb480b68ffee6752598117d4321b59756a6d5 inserting into database.
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.BitcoinRpc.RpcClient[0]
+      Calling method 'getblockheader(0ef8abe3ad183b97093c4f5eebffb480b68ffee6752598117d4321b59756a6d5,...) on node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[101]
+      Received HTTP response after 0.5033ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[101]
+      End processing HTTP request after 0.5862ms - OK
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.BitcoinRpc.RpcClient[0]
+      Calling method 'getblockchaininfo() on node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[101]
+      Received HTTP response after 0.3912ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[101]
+      End processing HTTP request after 0.4657ms - OK
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.Actions.BlockParser[0]
+      Block parser got a new block 11a9475c39ab98f58d29dd9173e942ce5233e66b1e9145c5eadc5be76447e39f inserting into database.
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.BitcoinRpc.RpcClient[0]
+      Calling method 'getblockheader(11a9475c39ab98f58d29dd9173e942ce5233e66b1e9145c5eadc5be76447e39f,...) on node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[101]
+      Received HTTP response after 0.5035ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[101]
+      End processing HTTP request after 0.5825ms - OK
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.BitcoinRpc.RpcClient[0]
+      Calling method 'getblockchaininfo() on node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[101]
+      Received HTTP response after 0.3938ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[101]
+      End processing HTTP request after 0.4646ms - OK
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.Actions.BlockParser[0]
+      Block parser got a new block 0827bb4601872d0f5306886e3eec84df762e4f1aa6aa8e918815ea62e35422ea inserting into database.
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.BitcoinRpc.RpcClient[0]
+      Calling method 'getblockheader(0827bb4601872d0f5306886e3eec84df762e4f1aa6aa8e918815ea62e35422ea,...) on node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[101]
+      Received HTTP response after 0.4903ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[101]
+      End processing HTTP request after 0.5762ms - OK
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.BitcoinRpc.RpcClient[0]
+      Calling method 'getblockchaininfo() on node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[101]
+      Received HTTP response after 0.3847ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[101]
+      End processing HTTP request after 0.4571ms - OK
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.Actions.BlockParser[0]
+      Block parser got a new block 4ca8436167384b564ef0b2b9a9f9324fbd086e39295ce9df7a39e44ebe15c36d inserting into database.
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.BitcoinRpc.RpcClient[0]
+      Calling method 'getblockheader(4ca8436167384b564ef0b2b9a9f9324fbd086e39295ce9df7a39e44ebe15c36d,...) on node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[101]
+      Received HTTP response after 0.4342ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[101]
+      End processing HTTP request after 0.5141ms - OK
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.BitcoinRpc.RpcClient[0]
+      Calling method 'getblockchaininfo() on node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[101]
+      Received HTTP response after 0.348ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[101]
+      End processing HTTP request after 0.4157ms - OK
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.Actions.BlockParser[0]
+      Block parser got a new block 3a584e46bef8e08da1a5f9ccff5ae896baf72e393f49964e8a15584bcac2a131 inserting into database.
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.BitcoinRpc.RpcClient[0]
+      Calling method 'getblockheader(3a584e46bef8e08da1a5f9ccff5ae896baf72e393f49964e8a15584bcac2a131,...) on node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[101]
+      Received HTTP response after 0.438ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[101]
+      End processing HTTP request after 0.5325ms - OK
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.BitcoinRpc.RpcClient[0]
+      Calling method 'getblockchaininfo() on node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[101]
+      Received HTTP response after 0.4166ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[101]
+      End processing HTTP request after 0.4991ms - OK
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.Actions.BlockParser[0]
+      Block parser got a new block 2500ea0a4976ea8ec94f3744e004505f335853c1c2a9d31d8e7788ba4790b6d1 inserting into database.
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.BitcoinRpc.RpcClient[0]
+      Calling method 'getblockheader(2500ea0a4976ea8ec94f3744e004505f335853c1c2a9d31d8e7788ba4790b6d1,...) on node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[101]
+      Received HTTP response after 0.4409ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[101]
+      End processing HTTP request after 0.5171ms - OK
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.BitcoinRpc.RpcClient[0]
+      Calling method 'getblockchaininfo() on node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[101]
+      Received HTTP response after 0.3845ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[101]
+      End processing HTTP request after 0.4532ms - OK
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.Actions.BlockParser[0]
+      Block parser got a new block 0ed29e4ba33b1827070095833b4ee1a3d98d6349243fc3f9409d68c9f3497def inserting into database.
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.BitcoinRpc.RpcClient[0]
+      Calling method 'getblockheader(0ed29e4ba33b1827070095833b4ee1a3d98d6349243fc3f9409d68c9f3497def,...) on node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[101]
+      Received HTTP response after 0.3757ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[101]
+      End processing HTTP request after 0.4641ms - OK
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.BitcoinRpc.RpcClient[0]
+      Calling method 'getblockchaininfo() on node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[101]
+      Received HTTP response after 0.355ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[101]
+      End processing HTTP request after 0.4223ms - OK
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.Actions.BlockParser[0]
+      Block parser got a new block 1fd9c0b64f5dcca5de973f400033de27420ef01389d25c6162d7cf4dc124c28a inserting into database.
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.BitcoinRpc.RpcClient[0]
+      Calling method 'getblockheader(1fd9c0b64f5dcca5de973f400033de27420ef01389d25c6162d7cf4dc124c28a,...) on node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[101]
+      Received HTTP response after 0.3429ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[101]
+      End processing HTTP request after 0.4134ms - OK
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.BitcoinRpc.RpcClient[0]
+      Calling method 'getblockchaininfo() on node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[101]
+      Received HTTP response after 0.4852ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[101]
+      End processing HTTP request after 0.557ms - OK
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.Actions.BlockParser[0]
+      Block 0a5c4aa6629376b4bb5ff36ad77878b2f8d9ae064539317c42668a42606dad3b successfully parsed.
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.Actions.BlockParser[0]
+      Block parser retrieved a new block 7f1a2a8e17eefd230fb4c3378450bd1c411bbd3250fe2c1b1fc798b34b222070 from database. Parsing it.
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.BitcoinRpc.RpcClient[0]
+      Calling method 'getblock(7f1a2a8e17eefd230fb4c3378450bd1c411bbd3250fe2c1b1fc798b34b222070,...) on node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[101]
+      Received HTTP response after 0.5157ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[101]
+      End processing HTTP request after 0.5991ms - OK
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.Actions.BlockParser[0]
+      Block 7f1a2a8e17eefd230fb4c3378450bd1c411bbd3250fe2c1b1fc798b34b222070 successfully parsed.
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.Actions.BlockParser[0]
+      Block parser retrieved a new block 0ef8abe3ad183b97093c4f5eebffb480b68ffee6752598117d4321b59756a6d5 from database. Parsing it.
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.BitcoinRpc.RpcClient[0]
+      Calling method 'getblock(0ef8abe3ad183b97093c4f5eebffb480b68ffee6752598117d4321b59756a6d5,...) on node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[101]
+      Received HTTP response after 0.5562ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[101]
+      End processing HTTP request after 0.6415ms - OK
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.Actions.BlockParser[0]
+      Block 0ef8abe3ad183b97093c4f5eebffb480b68ffee6752598117d4321b59756a6d5 successfully parsed.
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.Actions.BlockParser[0]
+      Block parser retrieved a new block 11a9475c39ab98f58d29dd9173e942ce5233e66b1e9145c5eadc5be76447e39f from database. Parsing it.
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.BitcoinRpc.RpcClient[0]
+      Calling method 'getblock(11a9475c39ab98f58d29dd9173e942ce5233e66b1e9145c5eadc5be76447e39f,...) on node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[101]
+      Received HTTP response after 0.4124ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[101]
+      End processing HTTP request after 0.4847ms - OK
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.Actions.BlockParser[0]
+      Block 11a9475c39ab98f58d29dd9173e942ce5233e66b1e9145c5eadc5be76447e39f successfully parsed.
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.Actions.BlockParser[0]
+      Block parser retrieved a new block 0827bb4601872d0f5306886e3eec84df762e4f1aa6aa8e918815ea62e35422ea from database. Parsing it.
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.BitcoinRpc.RpcClient[0]
+      Calling method 'getblock(0827bb4601872d0f5306886e3eec84df762e4f1aa6aa8e918815ea62e35422ea,...) on node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[101]
+      Received HTTP response after 0.4165ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[101]
+      End processing HTTP request after 0.5001ms - OK
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.Actions.BlockParser[0]
+      Block 0827bb4601872d0f5306886e3eec84df762e4f1aa6aa8e918815ea62e35422ea successfully parsed.
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.Actions.BlockParser[0]
+      Block parser retrieved a new block 4ca8436167384b564ef0b2b9a9f9324fbd086e39295ce9df7a39e44ebe15c36d from database. Parsing it.
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.BitcoinRpc.RpcClient[0]
+      Calling method 'getblock(4ca8436167384b564ef0b2b9a9f9324fbd086e39295ce9df7a39e44ebe15c36d,...) on node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[101]
+      Received HTTP response after 0.4854ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[101]
+      End processing HTTP request after 0.5683ms - OK
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.Actions.BlockParser[0]
+      Block 4ca8436167384b564ef0b2b9a9f9324fbd086e39295ce9df7a39e44ebe15c36d successfully parsed.
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.Actions.BlockParser[0]
+      Block parser retrieved a new block 3a584e46bef8e08da1a5f9ccff5ae896baf72e393f49964e8a15584bcac2a131 from database. Parsing it.
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.BitcoinRpc.RpcClient[0]
+      Calling method 'getblock(3a584e46bef8e08da1a5f9ccff5ae896baf72e393f49964e8a15584bcac2a131,...) on node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[101]
+      Received HTTP response after 6.8769ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[101]
+      End processing HTTP request after 6.9919ms - OK
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.Actions.BlockParser[0]
+      Block 3a584e46bef8e08da1a5f9ccff5ae896baf72e393f49964e8a15584bcac2a131 successfully parsed.
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.Actions.BlockParser[0]
+      Block parser retrieved a new block 2500ea0a4976ea8ec94f3744e004505f335853c1c2a9d31d8e7788ba4790b6d1 from database. Parsing it.
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.BitcoinRpc.RpcClient[0]
+      Calling method 'getblock(2500ea0a4976ea8ec94f3744e004505f335853c1c2a9d31d8e7788ba4790b6d1,...) on node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[101]
+      Received HTTP response after 0.4758ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[101]
+      End processing HTTP request after 0.5681ms - OK
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.Actions.BlockParser[0]
+      Block 2500ea0a4976ea8ec94f3744e004505f335853c1c2a9d31d8e7788ba4790b6d1 successfully parsed.
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.Actions.BlockParser[0]
+      Block parser retrieved a new block 0ed29e4ba33b1827070095833b4ee1a3d98d6349243fc3f9409d68c9f3497def from database. Parsing it.
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.BitcoinRpc.RpcClient[0]
+      Calling method 'getblock(0ed29e4ba33b1827070095833b4ee1a3d98d6349243fc3f9409d68c9f3497def,...) on node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[101]
+      Received HTTP response after 0.4445ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[101]
+      End processing HTTP request after 0.5197ms - OK
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.Actions.BlockParser[0]
+      Block 0ed29e4ba33b1827070095833b4ee1a3d98d6349243fc3f9409d68c9f3497def successfully parsed.
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.Actions.BlockParser[0]
+      Block parser retrieved a new block 1fd9c0b64f5dcca5de973f400033de27420ef01389d25c6162d7cf4dc124c28a from database. Parsing it.
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.BitcoinRpc.RpcClient[0]
+      Calling method 'getblock(1fd9c0b64f5dcca5de973f400033de27420ef01389d25c6162d7cf4dc124c28a,...) on node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[101]
+      Received HTTP response after 0.4072ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[101]
+      End processing HTTP request after 0.4799ms - OK
+[40m[32minfo[39m[22m[49m: MerchantAPI.APIGateway.Domain.Actions.BlockParser[0]
+      Block 1fd9c0b64f5dcca5de973f400033de27420ef01389d25c6162d7cf4dc124c28a successfully parsed.
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.BitcoinRpc.RpcClient[0]
+      Calling method 'activezmqnotifications() on node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[101]
+      Received HTTP response after 1.411ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[101]
+      End processing HTTP request after 1.6669ms - OK
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:5050/api/v1/Node application/json 
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Authorization.DefaultAuthorizationService[1]
+      Authorization was successful.
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'MerchantAPI.APIGateway.Rest.Controllers.NodeController.Get (MerchantAPI.APIGateway.Rest)'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Get", controller = "Node"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MerchantAPI.APIGateway.Rest.ViewModels.NodeViewModelGet]] Get() on controller MerchantAPI.APIGateway.Rest.Controllers.NodeController (MerchantAPI.APIGateway.Rest).
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Linq.Enumerable+SelectArrayIterator`2[[MerchantAPI.APIGateway.Domain.Models.Node, MerchantAPI.APIGateway.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[MerchantAPI.APIGateway.Rest.ViewModels.NodeViewModelGet, MerchantAPI.APIGateway.Rest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action MerchantAPI.APIGateway.Rest.Controllers.NodeController.Get (MerchantAPI.APIGateway.Rest) in 2.3802ms
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'MerchantAPI.APIGateway.Rest.Controllers.NodeController.Get (MerchantAPI.APIGateway.Rest)'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished in 10.8494ms 200 application/json; charset=utf-8
+[40m[32minfo[39m[22m[49m: MerchantAPI.Common.BitcoinRpc.RpcClient[0]
+      Calling method 'activezmqnotifications() on node 127.0.0.1:18332
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:18332/
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.ClientHandler[101]
+      Received HTTP response after 1.5792ms - OK
+[40m[32minfo[39m[22m[49m: System.Net.Http.HttpClient.127.0.0.1.LogicalHandler[101]
+      End processing HTTP request after 1.7476ms - OK
